@@ -1,5 +1,7 @@
 # Explore / Essence / Follow Skills
 
+[English](README.en.md) | 中文
+
 > A skill family for learning from any repository: `explore` builds the map, `essence` extracts the designs worth stealing, and `follow` turns the report into a guided learning session.
 
 三个可安装到任意 agent 的学习型 skill：`explore` 为陌生项目建立地图和学习入口；`essence` 深挖最值得迁移到自己工程里的设计；`follow` 基于已有报告一步一步带你学习。它们不是同一分析流程的深浅版本，而是学习链路上的三个角色。
@@ -67,6 +69,7 @@ Entry --> Boundary --> Result        ← 每条有意义的边都标注证据出
 
 | 宿主 | 技能目录 |
 | --- | --- |
+| 通用（`.agents` 约定） | `~/.agents/skills/`（用户级）或项目内 `.agents/skills/` |
 | Codex | `~/.codex/skills/` |
 | Claude Code | `~/.claude/skills/`（用户级）或项目内 `.claude/skills/` |
 | 其它 | 以宿主官方说明为准 |
